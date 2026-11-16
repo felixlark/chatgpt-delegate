@@ -20,7 +20,7 @@ Use this skill to delegate substantive work to ChatGPT Web/App through a local M
 Run connector commands from the repo checkout that contains `chatgpt-delegate`:
 
 ```bash
-cd /Users/longbiao/Projects/chatgpt-delegate
+cd ~/Projects/chatgpt-delegate
 ```
 
 If that path is unavailable, locate the checkout containing `src/chatgpt_delegate/connector.py` and `docs/connector.md`.
