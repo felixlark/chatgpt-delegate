@@ -4,7 +4,7 @@ ChatGPT Delegate lets Codex hand off substantive work to ChatGPT Web/App while C
 
 It is useful for deep research, PRD drafting, design thinking, comparison writing, community best-practice scans, and quick current-information lookups where you want ChatGPT to spend the thinking/search effort and save the final Markdown back to the local filesystem.
 
-Project page: https://longbiaochen.github.io/chatgpt-delegate/
+Project page: https://github.com/felixlark/chatgpt-delegate
 
 ## Boundary
 
@@ -17,7 +17,7 @@ Project page: https://longbiaochen.github.io/chatgpt-delegate/
 ## Install
 
 ```bash
-git clone https://github.com/longbiaochen/chatgpt-delegate.git
+git clone https://github.com/felixlark/chatgpt-delegate.git
 cd chatgpt-delegate
 python3 -m venv .venv
 ./.venv/bin/pip install -e ".[chatgpt,test]"

@@ -9,7 +9,7 @@ description = "Delegate research, thinking, writing, and web lookup tasks from C
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
-authors = [{ name = "Longbiao Chen" }]
+authors = [{ name = "felixlark" }]
 keywords = ["chatgpt", "codex", "mcp", "delegation", "research"]
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -29,9 +29,9 @@ chatgpt = ["fastmcp>=2.0,<4"]
 test = ["pytest>=8,<9"]
 
 [project.urls]
-Homepage = "https://longbiaochen.github.io/chatgpt-delegate/"
-Repository = "https://github.com/longbiaochen/chatgpt-delegate"
-Issues = "https://github.com/longbiaochen/chatgpt-delegate/issues"
+Homepage = "https://github.com/felixlark/chatgpt-delegate"
+Repository = "https://github.com/felixlark/chatgpt-delegate"
+Issues = "https://github.com/felixlark/chatgpt-delegate/issues"
 
 [project.scripts]
 chatgpt-delegate = "chatgpt_delegate.connector:main"
